@@ -22,3 +22,5 @@
 hs_err_pid*
 
 /.idea
+/jvm-baisc/jvm-baisc.iml
+/**/target
