@@ -1,0 +1,17 @@
+package com.leafluo.clazz;
+
+/**
+ * 被动引用
+ * 通过子类引用父类的静态方法,不会导致子类初始化
+ */
+public class SuperClass {
+
+    static {
+        System.out.println("SuperClass init!");
+    }
+
+    public static int value = 123;
+
+
+
+}

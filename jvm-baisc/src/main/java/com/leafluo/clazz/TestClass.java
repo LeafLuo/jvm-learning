@@ -18,5 +18,14 @@ public class TestClass {
         }
     }
 
+    void onlyMe(Foo  f) {
+        synchronized (f) {
+            doSomething();
+        }
+    }
+
+    private void doSomething() {
+    }
+
 
 }
